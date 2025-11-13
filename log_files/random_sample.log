@@ -1,0 +1,4 @@
+2025-11-11 01:13:32,969 - INFO - Column Name: TotalCharges | Missing Values Before: 10
+2025-11-11 01:13:32,971 - INFO - col names : TotalCharges and null values count : 0
+2025-11-11 01:13:32,971 - INFO - Missing Values After: 1
+2025-11-11 01:13:32,972 - INFO - Missing Values After: 0

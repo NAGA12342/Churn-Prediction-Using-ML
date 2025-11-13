@@ -1,0 +1,4 @@
+2025-11-11 01:13:33,001 - INFO - Total columns : 4 -> without variance 0 : 3 -> with variance 0 : 1
+2025-11-11 01:13:33,001 - INFO - Variance 0 : names : Index(['SeniorCitizen_log_trim'], dtype='object')
+2025-11-11 01:13:33,002 - INFO - Columns names : Index(['tenure_log_trim', 'MonthlyCharges_log_trim', 'TotalCharges_log_trim'], dtype='object')
+2025-11-11 01:13:33,002 - INFO - Columns names : Index(['tenure_log_trim', 'MonthlyCharges_log_trim', 'TotalCharges_log_trim'], dtype='object')

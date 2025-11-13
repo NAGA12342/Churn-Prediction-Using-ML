@@ -1,0 +1,5 @@
+2025-11-11 01:13:32,984 - INFO - Log Transformation completed successfully : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges',
+       'SeniorCitizen_log', 'tenure_log', 'MonthlyCharges_log',
+       'TotalCharges_log'],
+      dtype='object')
+2025-11-11 01:13:32,984 - INFO - Log column names : ['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
