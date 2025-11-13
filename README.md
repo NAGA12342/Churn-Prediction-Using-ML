@@ -103,4 +103,4 @@ The backend processes the input, scales and encodes features, and predicts wheth
 ## 👨‍💻 Support
 **Developer:** Thalari Nagasuresh  
 **Focus Area:** Machine Learning & Predictive Analytics  
-**Deployment:** [Render – Customer Churn Prediction Web App](#)
+**Deployment:** https://churn-prediction-using-ml-fdbl.onrender.com
