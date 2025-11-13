@@ -7,11 +7,10 @@ This project aims to predict whether a telecom customer is likely to discontinue
 The project includes the full pipeline — from data preprocessing and transformation to model training, evaluation, and deployment using Flask and Python.
 
 **📂 Dataset Overview**
-Dataset Name: Telco Customer Churn
-Source: IBM Telco Customer Dataset
-Total Records: 7043
-Total Attributes: 20 input features + 1 target variable
-Target Variable: Churn (Yes → churned, No → stayed)
+**Dataset Name:** Telco Customer Churn
+**Total Records:** 7043
+**Total Attributes:** 20 input features + 1 target variable
+**Target Variable:** Churn (Yes → churned, No → stayed)
 
 **🔑 Feature Highlights**
 Feature	Description
@@ -63,20 +62,20 @@ ROC–AUC: 0.81
 Balanced Performance: Optimized precision and recall post-SMOTE.
 
 **🌐 Deployment**
-Backend Framework: Flask
-Frontend: HTML + CSS (index.html interface)
-Hosting Platform: Render
-Model Files Used:
-churn_prediction_project.pkl (Trained Model)
-standard_scaler.pkl (Scaler for normalization)
-feature_columns.pkl (Preserved feature list)
+**Backend Framework:** Flask
+**Frontend:** HTML + CSS (index.html interface)
+**Hosting Platform:** Render
+**Model Files Used:**
+            churn_prediction_project.pkl (Trained Model)
+            standard_scaler.pkl (Scaler for normalization)
+            feature_columns.pkl (Preserved feature list)
 Users can input customer information through the web interface. The backend processes inputs, scales data, applies encoding, and displays whether the customer is likely to churn or stay.
 
 **🧰 Tools & Technologies**
-Programming Language: Python
-Libraries: Pandas, NumPy, scikit-learn, imblearn, xgboost
-Visualization: Matplotlib, Seaborn
-Deployment Tools: Flask, Render
+**Programming Language:** Python
+**Libraries:** Pandas, NumPy, scikit-learn, imblearn, xgboost
+**Visualization:** Matplotlib, Seaborn
+**Deployment Tools:** Flask, Render
 
 **📈 Key Insights**
 Customers with short-term contracts tend to churn more frequently.
@@ -86,6 +85,6 @@ Long-term tenure and fiber optic users significantly influence retention.
 Customers using multiple online services (security, backup) are less likely to leave.
 
 **👨‍💻 Support**
-Developer: Thalari Nagasuresh
-Focus Area: Machine Learning & Predictive Analytics
-Deployment: Render – Customer Churn Prediction Web App
+**Developer:** Thalari Nagasuresh
+**Focus Area:** Machine Learning & Predictive Analytics
+**Deployment:** Render – Customer Churn Prediction Web App
