@@ -9,7 +9,7 @@ The project covers the **complete end-to-end pipeline** — from data preprocess
 ---
 
 ## 📂 Dataset Overview
-- **Dataset Name:** Telco Customer Churn  
+- **Dataset Name:** WA_Fn-UseC_-Telco-Customer-Churn 
 - **Total Records:** 7043  
 - **Total Attributes:** 20 input features + 1 target variable  
 - **Target Variable:** `Churn` (Yes → churned, No → stayed)
