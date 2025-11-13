@@ -1,23 +1,20 @@
-
-
-
 from flask import Flask, render_template, request
 import numpy as np
 import pandas as pd
 import pickle
+import os  # added for relative paths
 
 app = Flask(__name__)
 
-# Fixed absolute paths based on your directory structure
-MODEL_PATH = r"C:\\Users\\tnaga\\OneDrive\\Documents\\Churn_Project\\Result\\churn_prediction_project.pkl"
-SCALER_PATH = r"C:\\Users\\tnaga\\OneDrive\\Documents\\Churn_Project\\Result\\standard_scalar.pkl"
-FEATURE_COLUMNS_PATH = r"C:\\Users\\tnaga\\OneDrive\\Documents\\Churn_Project\\Result\\feature_columns.pkl"
+# Get project root dynamically
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RESULT_DIR = os.path.join(BASE_DIR, "Result")  # folder where your .pkl files are
 
-# Load trained model and scaler
+# Load trained model and scaler using relative paths
 try:
-    model = pickle.load(open(MODEL_PATH, "rb"))
-    scaler = pickle.load(open(SCALER_PATH, "rb"))
-    feature_columns = pickle.load(open(FEATURE_COLUMNS_PATH, "rb"))
+    model = pickle.load(open(os.path.join(RESULT_DIR, "churn_prediction_project.pkl"), "rb"))
+    scaler = pickle.load(open(os.path.join(RESULT_DIR, "standard_scalar.pkl"), "rb"))
+    feature_columns = pickle.load(open(os.path.join(RESULT_DIR, "feature_columns.pkl"), "rb"))
 except FileNotFoundError:
     print("⚠ Warning: Model files not found in Result folder.")
     model, scaler, feature_columns = None, None, []
